@@ -1,0 +1,38 @@
+{
+  "name": "breda-bot",
+  "version": "1.0.0",
+  "description": "Breda bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "Breda",
+    "bot"
+  ],
+  "author": " ( Reinier.g )",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.3.1",
+    "discord.js-commando": "^0.10.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "nekos.life": "^2.0.7",
+    "opus": "0.0.0",
+    "os": "^0.1.1",
+    "quick.db": "^7.1.2",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "snekfetch": "^4.0.4",
+    "superagent": "^6.1.0",
+    "ytdl-core": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
